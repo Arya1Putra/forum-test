@@ -1,0 +1,148 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+}
+
+#wrapper{
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.wrp{
+  width: 50%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin: 7px;
+}
+
+.contact100-form-title-1 {
+  font-family: Montserrat-Black;
+  font-size: 39px;
+  color: black;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 7px;
+
+}
+
+.contact100-form {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+/*input */
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 13px;
+  padding: 10px 30px 9px 22px;
+  margin-bottom: 20px;
+}
+
+.rs1-wrap-input100 {
+  width: calc((100% - 30px) / 2);
+}
+
+.label-input100 {
+  font-family: Montserrat-SemiBold;
+  font-size: 10px;
+  color: #393939;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.input100 {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-family: Montserrat-SemiBold;
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.2;
+  padding-right: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+ 
+table a {
+    color: #000;
+}
+ 
+table a:hover {
+    color:#373737;
+    text-decoration: none;
+}
+ 
+th {
+    background-color: #B40E1F;
+    color: #F0F0F0;
+}
+ 
+td {
+    padding: 5px;
+}
+ 
+/* Begin font styles */
+
+ 
+h3 {margin: 0; padding: 0;}
+ 
+
+ 
+.leftpart {
+    width: 70%;
+}
+ 
+.rightpart {
+    width: 30%;
+}
+ 
+.small {
+    font-size: 75%;
+    color: #373737;
+}
+ 
+.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+ 
+.post-content {
+    padding: 30px;
+}
+ 
+textarea {
+    width: 500px;
+    height: 200px;
+}

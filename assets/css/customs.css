@@ -1,0 +1,14 @@
+.isDisabled {
+  	cursor: not-allowed;
+  	opacity: 0.5;
+}
+.isDisabled > a {
+  	color: currentColor;
+  	display: inline-block;  /* For IE11/ MS Edge bug */
+  	pointer-events: none;
+  	text-decoration: none;
+}
+.bordered{
+  	border-bottom: 1px solid #ccc;
+  	margin: 0 0 5px 0;
+}
